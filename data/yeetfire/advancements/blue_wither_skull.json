@@ -1,0 +1,21 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "items": [
+                "minecraft:firework_star"
+            ],
+            "components": {
+              "minecraft:custom_data": "{BlueWitherSkull:1b}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "yeetfire:blue_wither_skull"
+    },
+    "sends_telemetry_event": false
+  }

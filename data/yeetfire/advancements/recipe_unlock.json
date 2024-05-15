@@ -1,0 +1,23 @@
+{
+    "criteria": {
+      "has_firecharge": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:fire_charge"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "recipes": [
+        "yeetfire:dragon_fireball",
+        "yeetfire:ghast_fireball",
+        "yeetfire:wither_skull",
+        "yeetfire:blue_wither_skull"
+      ]
+    },
+    "sends_telemetry_event": false
+  }

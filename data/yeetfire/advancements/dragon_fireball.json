@@ -1,0 +1,34 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "slots": {
+                  "armor.head": {
+                    "items": "minecraft:dragon_head"
+                  }
+                }
+              }
+            }
+          ],
+          "item": {
+            "items": [
+                "minecraft:firework_star"
+            ],
+            "components": {
+              "minecraft:custom_data": "{DragonFireball:1b}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "yeetfire:dragon_fireball"
+    },
+    "sends_telemetry_event": false
+  }
