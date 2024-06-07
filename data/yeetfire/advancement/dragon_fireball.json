@@ -3,19 +3,6 @@
       "requirement": {
         "trigger": "minecraft:using_item",
         "conditions": {
-          "player": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "slots": {
-                  "armor.head": {
-                    "items": "minecraft:dragon_head"
-                  }
-                }
-              }
-            }
-          ],
           "item": {
             "items": [
                 "minecraft:firework_star"

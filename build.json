@@ -1,8 +1,8 @@
-{
-    "description": "Makes fire charges throwable, and adds craftable ghast and dragon fireballs",
-    "data_version":43,
+{ 
+    "description": "Makes fire charges throwable, and adds craftable ghast and dragon fireballs, and wither skulls",
+    "data_version":48,
     "resource_version": 0,
-    "datapack_name": "Throwable Fire Charges & Fireballs",
+    "datapack_name": "Throwable Fireballs & Skulls",
     "world_dirs": [
        "C:/Users/MkZee/AppData/Roaming/ATLauncher/instances/Minecraft24w18awithFabric/saves/yeetfire"
     ]
