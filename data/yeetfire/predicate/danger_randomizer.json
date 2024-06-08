@@ -1,0 +1,154 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+      {
+        "condition": "minecraft:reference",
+        "name": "yeetfire:wearing_skull"
+      },
+      {
+        "condition": "minecraft:any_of",
+        "terms": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 1
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "armor.head": {
+                      "predicates": {
+                        "minecraft:enchantments": [
+                          {
+                            "levels": {
+                              "yeetfire:danger": 5
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.33
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "armor.head": {
+                      "predicates": {
+                        "minecraft:enchantments": [
+                          {
+                            "levels": {
+                              "yeetfire:danger": 4
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "armor.head": {
+                      "predicates": {
+                        "minecraft:enchantments": [
+                          {
+                            "levels": {
+                              "yeetfire:danger": 3
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.033
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "armor.head": {
+                      "predicates": {
+                        "minecraft:enchantments": [
+                          {
+                            "levels": {
+                              "yeetfire:danger": 2
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.07
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "armor.head": {
+                      "predicates": {
+                        "minecraft:enchantments": [
+                          {
+                            "levels": {
+                              "yeetfire:danger": 1
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
