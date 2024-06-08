@@ -24,9 +24,8 @@
                       "predicates": {
                         "minecraft:enchantments": [
                           {
-                            "levels": {
-                              "yeetfire:danger": 5
-                            }
+                            "enchantments": "yeetfire:danger",
+                            "levels": 5
                           }
                         ]
                       }
@@ -41,7 +40,7 @@
             "terms": [
               {
                 "condition": "minecraft:random_chance",
-                "chance": 0.33
+                "chance": 0.4
               },
               {
                 "condition": "minecraft:entity_properties",
@@ -52,9 +51,35 @@
                       "predicates": {
                         "minecraft:enchantments": [
                           {
-                            "levels": {
-                              "yeetfire:danger": 4
-                            }
+                            "enchantments": "yeetfire:danger",
+                            "levels": 4
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.2
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "armor.head": {
+                      "predicates": {
+                        "minecraft:enchantments": [
+                          {
+                            "enchantments":"yeetfire:danger",
+                            "levels": 3
                           }
                         ]
                       }
@@ -80,9 +105,8 @@
                       "predicates": {
                         "minecraft:enchantments": [
                           {
-                            "levels": {
-                              "yeetfire:danger": 3
-                            }
+                            "enchantments":"yeetfire:danger",
+                            "levels": 2
                           }
                         ]
                       }
@@ -97,7 +121,7 @@
             "terms": [
               {
                 "condition": "minecraft:random_chance",
-                "chance": 0.033
+                "chance": 0.05
               },
               {
                 "condition": "minecraft:entity_properties",
@@ -108,9 +132,8 @@
                       "predicates": {
                         "minecraft:enchantments": [
                           {
-                            "levels": {
-                              "yeetfire:danger": 2
-                            }
+                            "enchantments":"yeetfire:danger",
+                            "levels": 1
                           }
                         ]
                       }
@@ -121,32 +144,8 @@
             ]
           },
           {
-            "condition": "minecraft:all_of",
-            "terms": [
-              {
-                "condition": "minecraft:random_chance",
-                "chance": 0.07
-              },
-              {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                  "slots": {
-                    "armor.head": {
-                      "predicates": {
-                        "minecraft:enchantments": [
-                          {
-                            "levels": {
-                              "yeetfire:danger": 1
-                            }
-                          }
-                        ]
-                      }
-                    }
-                  }
-                }
-              }
-            ]
+            "condition": "minecraft:random_chance",
+            "chance": 0.01
           }
         ]
       }
