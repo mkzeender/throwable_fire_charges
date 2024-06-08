@@ -5,17 +5,17 @@
         "conditions": {
           "item": {
             "items": [
-                "minecraft:firework_star"
+              "minecraft:firework_star"
             ],
             "components": {
-              "minecraft:custom_data": "{DragonFireball:1b}"
+              "minecraft:custom_data": "{GhastFireball:1b}"
             }
           }
         }
       }
     },
     "rewards": {
-      "function": "yeetfire:dragon_fireball"
+      "function": "yeetfire:fireball"
     },
     "sends_telemetry_event": false
   }

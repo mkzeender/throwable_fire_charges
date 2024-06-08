@@ -13,10 +13,7 @@
     },
     "rewards": {
       "recipes": [
-        "yeetfire:dragon_fireball",
-        "yeetfire:ghast_fireball",
-        "yeetfire:wither_skull",
-        "yeetfire:blue_wither_skull"
+        "yeetfire:ghast_fireball"
       ]
     },
     "sends_telemetry_event": false
