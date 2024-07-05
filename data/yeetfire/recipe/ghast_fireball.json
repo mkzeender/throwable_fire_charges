@@ -24,13 +24,14 @@
           ]
         },
         "minecraft:custom_data": "{GhastFireball:1b}",
-        "minecraft:item_name": "\"Ghast Fireball\"",
+        "minecraft:item_name": "\"Fireball\"",
         "minecraft:food": {
           "nutrition": 0,
           "saturation": 0,
           "can_always_eat": true,
           "eat_seconds": 1000000
-        }
+        },
+        "minecraft:hide_additional_tooltip": {}
       }
     }
   }
